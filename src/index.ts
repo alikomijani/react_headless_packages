@@ -1,3 +1,3 @@
-import MyCounter from './components/App'
+import LoadingButton from './components/LoadingButton'
 
-export { MyCounter }
+export { LoadingButton }

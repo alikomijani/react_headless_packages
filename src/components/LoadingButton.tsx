@@ -4,7 +4,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   onClick: (event?: React.MouseEvent<HTMLButtonElement, MouseEvent>) => Promise<any>
   ProgressComponent?: ElementType
   Component?: ElementType
-  progressProps: object
+  progressProps?: object
   loadingText: string
 }
 
